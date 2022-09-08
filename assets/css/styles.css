@@ -317,7 +317,6 @@ img {
 
 .home__title__2{
   font-size: var(--big-font-size);
-  color: var(--title-two-color);
 }
 
 .home__subtitle{
@@ -393,7 +392,7 @@ img {
 }
 
 .about__description{
-  text-align: center;
+  text-align: justify;
   margin-bottom: var(--mb-2-5);
 }
 
@@ -487,7 +486,7 @@ img {
 }
 
 .skills__html{
-  width: 90%;
+  width: 70%;
 }
 
 .skills__css{
@@ -498,7 +497,7 @@ img {
   width: 70%;
 }
 
-.skills__react{
+.skills__php{
   width: 10%;
 }
 
@@ -965,9 +964,6 @@ img {
   }
   .about__img{
     width: 350px;
-  }
-  .about__description{
-    text-align: initial;
   }
   .about__info{
     justify-content: space-between;
