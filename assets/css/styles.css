@@ -703,9 +703,7 @@ img {
 }
 
 .contact__information{
-  display: flex;
   margin-bottom: var(--mb-2);
-  justify-content: center;
 }
 
 .contact__icon{
@@ -1058,6 +1056,9 @@ img {
     bottom: -4.5rem;
   }
 
+  .contact__information{
+    text-align: center;
+  }
   .contact__form{
     width: 460px;
   }
